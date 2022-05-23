@@ -1,0 +1,21 @@
+db.products.insertOne(
+    
+    {
+        _id:3,
+        name:"rubber",
+        price:5,
+        stock:67,
+        reviews:[
+            {
+                authorName:"jijo",
+                rating:5,
+                review:"best product",
+            },
+            {
+                authorName:"akmal",
+                rating:3,
+                review:"notbad"
+            }
+        ]
+    }
+)
